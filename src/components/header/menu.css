@@ -1,3 +1,7 @@
+.navbar {
+    height: 80px;
+}
+
 .navbar-left {
     float: left;
     color: #f2f2f2;

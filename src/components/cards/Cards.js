@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from './Card'
 
 import './styles.css'
 
@@ -59,15 +60,7 @@ const Cards = () => {
         <div className="cardSection">
             {(cardsData || []).map((card, index) => {
                 console.log(card, index)
-                return (
-                    <div className="cardsContainer" style={{backgroundImage: `url(${card.image})`, backgroundSize: "cover"}}>
-                        <div className="bottomCard">
-                        <h2 className="titleCard"> {card.title}</h2>
-                        <p className="subtitleCard">{card.subtitle}</p>
-                        <button className="buttonCard">{card.sightings}</button>
-                        </div>
-                    </div>
-                )
+                return <Card details={card} />
 
             })}
 
