@@ -1,0 +1,48 @@
+.navbar-left {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 17px;
+    vertical-align: center;
+}
+
+.logo {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    padding: 70px 40px;
+    font-family: "Apple Symbols";
+    font-size: 17px;
+    color: #949EA0;
+
+}
+
+.login {
+    color: #DF9186;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #DF9186;
+    color: white;
+    padding: 12px 22px;
+    text-align: center;
+    border-radius: 17px;
+}
